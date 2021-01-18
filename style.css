@@ -9,7 +9,7 @@
 
 
 body {
-    background-color: black;
+    background-color: pink;
     color: white;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
@@ -59,7 +59,7 @@ nav{
 
 
 .content {
-    background-color: red;
+    background-color: black;
     color: white;
     flex: 1;
     display: flex;
