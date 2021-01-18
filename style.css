@@ -1,0 +1,196 @@
+@font-face {font-family: "Juventus Fans Bold"; src: url("//db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.eot"); src: url("//db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.woff") format("woff"), url("//db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.svg#Juventus Fans Bold") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.cointeiner {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    background-color: white;
+    color: black;
+    width: 200px;
+}
+
+nav{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menu-main{
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 40px;   
+}
+
+.menu-main::after{
+    content: '***';
+    color: gold;
+
+}
+
+
+.content {
+    background-color: red;
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.team-name{
+    font-family: 'Juventus Fans Bold';
+    padding: 25px;
+    padding-bottom: 35px;
+    font-size: 100px;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-top:10px;
+    height: 130px;
+}
+
+.player {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+
+.player-box-border{
+    display: flex;
+    width: 600px;
+    height: 350px;
+    background: linear-gradient(30deg, rgba(255,215,0,1) 0%, rgba(0,0,0,1) 25%, rgba(224,189,0,1) 50%, rgba(255,255,255,1) 75%, rgba(255,215,0,1) 100%);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;    
+    transition: 0.6s;
+}
+
+.player-box-border:hover{
+    transform: scale(1.2);
+}
+
+
+.player-box-inner{
+    background-color: black;
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+    border-radius: 18px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+
+.player-name{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.flag{
+    width:5%;
+    top: 5px;
+    position: relative;
+}
+
+.gold {
+    color: gold;
+}
+
+.player-info{
+    height: 75%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-stats{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+}
+
+.table_player_info{
+    border-collapse:collapse;
+    width:100%;
+}
+
+.table_player_header{
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.table_left_side {
+    text-align: right;
+    padding: 5px;
+    width: 50%;
+    line-height: 2rem;
+}
+
+.table_left_side::after {
+    content: ":";
+}
+
+.table_right_side {
+    text-align: left;
+}
+
+footer {
+    background-color: silver;
+    
+}
