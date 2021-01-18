@@ -16,7 +16,7 @@ body {
 }
 
 .cointeiner {
-    background-color: blueviolet;
+    background-color: gray;
     display: flex;
     flex-direction: column;
     width: 1200px;
